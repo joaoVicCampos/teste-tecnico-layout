@@ -1,0 +1,42 @@
+.div-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.div-top {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo {
+    width: 158.28px;
+    height: 27.08px;
+}
+
+.input {
+    border-radius: 13px;
+    width: 594px;
+    height: 40px;
+    border: 1px solid #ccc;
+    color: #3E342B;
+    padding: 0 15px;
+    outline: none;
+    font-size: 15px;
+}
+
+.input::placeholder {
+    color: #3E342B;
+    opacity: 1;
+}
+
+.navbar-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

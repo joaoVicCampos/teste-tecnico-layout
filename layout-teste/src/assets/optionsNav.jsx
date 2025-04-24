@@ -1,0 +1,1 @@
+export const optNav = ['Departamento', 'Departamento', 'Departamento', 'Departamento', 'Departamento', 'Departamento', 'Departamento', 'Departamento']
