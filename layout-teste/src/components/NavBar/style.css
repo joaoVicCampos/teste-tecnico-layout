@@ -14,3 +14,7 @@
     font-weight: 500;
     position: relative;
 }
+
+.option-navbar:hover {
+    color: #005CFF;
+}
