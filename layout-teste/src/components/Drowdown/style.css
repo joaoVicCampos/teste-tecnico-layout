@@ -1,0 +1,37 @@
+.hamburger-container {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+}
+
+.hamburger {
+    width: 30px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3px;
+}
+
+.hamburger span {
+    height: 2px;
+    width: 90%;
+    background-color: #3E342B;
+    transition: 0.3s;
+}
+
+.dropdown-text {
+    color: #3E342B;
+    left: 0;
+    font-size: 15px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.dropdown-item {
+    display: flex;
+    padding: 8px 16px;
+    color: #3E342B;
+    text-decoration: none;
+}

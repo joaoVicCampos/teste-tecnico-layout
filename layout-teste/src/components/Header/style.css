@@ -1,23 +1,16 @@
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
+.div-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
 }
 
-.div-main {
-    width: 1920px;
-    height: 118px;
-    margin-top: 30px;
-    color: #fff;
+.div-top {
     display: flex;
     align-items: center;
-    justify-content: start;
-    gap: 20px;
-    padding-left: 330px;
+    gap: 40px;
 }
 
 .logo {
@@ -30,15 +23,20 @@
     width: 594px;
     height: 40px;
     border: 1px solid #ccc;
-    color: #000;
+    color: #3E342B;
     padding: 0 15px;
     outline: none;
     font-size: 15px;
-    opacity: 0;
-    animation: fadeIn 0.5s ease-in forwards;
 }
 
 .input::placeholder {
-    color: #000;
+    color: #3E342B;
     opacity: 1;
+}
+
+.navbar-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }

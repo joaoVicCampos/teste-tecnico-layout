@@ -1,0 +1,16 @@
+.navbar-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+    padding: 0 30px;
+}
+
+.option-navbar {
+    color: #3E342B;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+}
